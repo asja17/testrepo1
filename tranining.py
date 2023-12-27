@@ -6,4 +6,4 @@ word = len(fråga)
 while x < word:
     x = (x+1)
     print (x)
-    print ("detta är en ny branch"
+print ("detta är en ny branch som tar slut")
