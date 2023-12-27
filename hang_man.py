@@ -1,22 +1,17 @@
 
 # start
 x=0
-fråga = input("write a word: ")
+password = input("write a word: ")
 
-word = len(fråga)
+length = len(password)
 
-while x < word:
+while x < length:
     x = (x+1)
-print (f"there are {x} letters in the word")
+print (f"there are {x} letters in the word: {password}")
+print ("You will get 3 chances to guess this word")
 
-
-# lifes
-chans= ["*","*","*"]
-print (f"this is your lifes {chans}")
 
 guess = input ("guess a letter in the word: ")
 
-if guess == word:
+if guess == length:
     print(" * * ") 
-else:
-    print(" * * *  Good job")
