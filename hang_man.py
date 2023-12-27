@@ -11,7 +11,9 @@ print (f"there are {x} letters in the word: {password}")
 print ("You will get 3 chances to guess this word")
 
 
-guess = input ("guess a letter in the word: ")
+Letter = input ("guess a letter in the word: ")
+print("you guessed:"+ Letter[0])
 
-if guess == length:
-    print(" * * ") 
+if Letter[0] == password[0] : print("Correct")
+
+
