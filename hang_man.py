@@ -14,7 +14,7 @@ print (f"there are {x} letters in the word: {password}")
 
 
 
-while k <= (length):
+while k < (length):
     
     letter = input ("guess a letter in the word: ")
     z=0
