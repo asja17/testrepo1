@@ -26,9 +26,7 @@ while k < (length):
         if letter[0] == password[z]:
             del min_lista[z]
             min_lista.insert(z, password[z])
-            z=z+1
-        else:
-            z=z+1
+        z=z+1
         
     k=k+1
     
